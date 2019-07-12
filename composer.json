@@ -1,0 +1,33 @@
+{
+    "name": "liyq/laravel-notification-channel-jpush",
+    "keywords": [
+        "laravel",
+        "jpush",
+        "notification",
+        "php"
+    ],
+    "description": "Jpush from Laravel Notification channel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liyq",
+            "email": "2847895875@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Liyq\\Laravel\\Notifications\\JPush\\": "src"
+        }
+    },
+    "require": {
+        "jpush/jpush": "^3.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liyq\\Laravel\\Notifications\\JPush\\JPushServiceProvider"
+            ]
+        }
+    }
+}
